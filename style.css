@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  position: relative;
+}
+.hamburger {
+  font-size: 24px;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav a {
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+.logout {
+  color: red;
+}
+nav.hidden {
+  display: none;
+}
+.auth-box {
+  max-width: 300px;
+  margin: 5rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+canvas {
+  width: 100% !important;
+  max-width: 500px;
+  margin: 1rem auto;
+}
+.tipy {
+  margin: 1rem;
+}
+.tip-content {
+  display: none;
+  margin-bottom: 1rem;
+}

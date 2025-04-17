@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zvládnu to – Domů</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="home.js"></script>
+</head>
+<body>
+  <header>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <nav id="menu" class="hidden">
+      <a href="home.html">Domů</a>
+      <a href="poradce.html">Chytrý poradce</a>
+      <a href="profil.html">Profil</a>
+      <a href="#" id="logoutBtn" class="logout">Odhlásit se</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Vítej zpět!</h1>
+    <canvas id="myChart"></canvas>
+    <section class="tipy">
+      <button class="tip-toggle">Tip 1</button>
+      <div class="tip-content">Zkontroluj si zbytečné výdaje.</div>
+      <button class="tip-toggle">Tip 2</button>
+      <div class="tip-content">Nakupuj ve slevách.</div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
